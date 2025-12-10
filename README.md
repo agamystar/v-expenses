@@ -406,9 +406,6 @@ Note* postman collection attached in the code "v-expenses.postman_collection.jso
 ```bash
 php artisan serve
 ```
-
-The API wil
-
 ## Testing
 
 Run the test suite:
