@@ -397,6 +397,18 @@ Authorization: Bearer {token}
 }
 ```
 
+## Development
+
+```
+Note* postman collection attached in the code "v-expenses.postman_collection.json"
+```
+### Running the Server
+```bash
+php artisan serve
+```
+
+The API wil
+
 ## Testing
 
 Run the test suite:
@@ -432,12 +444,4 @@ php artisan test --filter ExpenseTest
 
 ### Expenses
 - `id`, `category_id`, `vendor_id` (nullable), `amount`, `date`, `description`, `created_by`, `deleted_at`, `timestamps`
-
-## Development
-
-### Running the Server
-```bash
-php artisan serve
-```
-
-The API will be available at `http://localhost:8000`
+l be available at `http://localhost:8000`
